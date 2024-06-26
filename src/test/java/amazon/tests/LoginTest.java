@@ -28,7 +28,7 @@ public class LoginTest {
         HomePage homePage = new HomePage(driver);
 
         homePage.clickQuickAccessButtonLogin();
-        loginPage.insertWrongEmail("testfafn@gmail.com");
+        loginPage.insertWrongEmail("email");
         loginPage.clickButtonContinue();
         loginPage.readWrongEmailMessage();
     }
@@ -39,9 +39,9 @@ public class LoginTest {
         HomePage homePage = new HomePage(driver);
 
         homePage.clickQuickAccessButtonLogin();
-        loginPage.insertEmail("testfafm@gmail.com");
+        loginPage.insertEmail("email");
         loginPage.clickButtonContinue();
-        loginPage.insertWrongPassword("wrongpassword");
+        loginPage.insertWrongPassword("wrongpasswod");
         loginPage.clickButtonSignInSubmit();
         loginPage.readWrongPasswordMessage();
     }
@@ -53,10 +53,10 @@ public class LoginTest {
 
         homePage.clickQuickAccessButtonLogin();
         loginPage.validTitleLogin();
-        loginPage.insertEmail("testfafm@gmail.com");
+        loginPage.insertEmail("email");
         loginPage.clickButtonContinue();
         loginPage.validateInputEmailSuccessfully();
-        loginPage.insertPassword("qazzaqqweewq1234!");
+        loginPage.insertPassword("password");
         loginPage.clickButtonSignInSubmit();
     }
 
