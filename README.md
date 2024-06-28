@@ -10,17 +10,17 @@ Testes automatizados no site da Amazon.com.br
 
   1.3) Testando o acesso com o email e a senha corretos.
    
-3) Teste de fluxo de login e seleção de item:
+2) Teste de fluxo de login e seleção de item:
 
-   1) Realiza login
+   2.1) Realiza login
 
-   2) Procura por kindle na busca
+   2.2) Procura por kindle na busca
 
-   3) Seleciona o primeiro objeto no resultado
+   2.3) Seleciona o primeiro objeto no resultado
 
-   4) Adiciona ao carrinho
+   2.4) Adiciona ao carrinho
 
-   5) Valida se o item foi adicionado ao carrinho
+   2.5) Valida se o item foi adicionado ao carrinho
 
 3) Contexto da construção do teste:
 
@@ -45,17 +45,17 @@ Automated tests on the Amazon.com.br website
 
   1.3) Testing access with the correct email and password.
    
-3) Login flow and item selection testing:
+2) Login flow and item selection testing:
 
-   1) Log in
+   2.1) Log in
 
-   2) Search for kindle in the search
+   2.2) Search for kindle in the search
 
-   3) Selects the first object in the result
+   2.3) Selects the first object in the result
 
-   4) Add to cart
+   2.4) Add to cart
 
-   5) Validates whether the item has been added to the cart
+   2.5) Validates whether the item has been added to the cart
 
 3) Test construction context:
 
