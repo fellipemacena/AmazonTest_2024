@@ -31,10 +31,10 @@ public class SearchKindleTest {
         homePage.clickQuickAccessButtonLogin();
         loginPage.validTitleLogin();
 
-        loginPage.insertEmail("testfafm@gmail.com");
+        loginPage.insertEmail("email");
         loginPage.clickButtonContinue();
         loginPage.validateInputEmailSuccessfully();
-        loginPage.insertPassword("qazzaqqweewq1234!");
+        loginPage.insertPassword("senha");
 
         loginPage.insertEmail("email");
         loginPage.clickButtonContinue();
