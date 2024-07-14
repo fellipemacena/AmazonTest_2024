@@ -48,7 +48,7 @@ public class LoginPageActions {
     public void validateInputEmailSuccessfully() {
         WebElement validInputEmailSuccessfully = loginPageElements.getValidInputEmailSuccessfully();
         String validEmailSuccessfully = validInputEmailSuccessfully.getText();
-        String expectedEmailSuccessfully = "testfafm@gmail.com";
+        String expectedEmailSuccessfully = "email";
         assertEquals(expectedEmailSuccessfully, validEmailSuccessfully, "O email exibido não corresponde ao esperado.");
     }
 
