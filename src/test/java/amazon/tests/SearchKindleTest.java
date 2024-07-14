@@ -27,36 +27,19 @@ public class SearchKindleTest {
     public void testLogin() {
         LoginPage loginPage = new LoginPage(driver);
         HomePage homePage = new HomePage(driver);
-
-        homePage.clickQuickAccessButtonLogin();
-        loginPage.validTitleLogin();
-
-        loginPage.insertEmail("email");
-        loginPage.clickButtonContinue();
-        loginPage.validateInputEmailSuccessfully();
-        loginPage.insertPassword("senha");
-
-        loginPage.insertEmail("email");
-        loginPage.clickButtonContinue();
-        loginPage.validateInputEmailSuccessfully();
-        loginPage.insertPassword("password");
-
-        loginPage.insertEmail("email");
-        loginPage.clickButtonContinue();
-        loginPage.validateInputEmailSuccessfully();
-        loginPage.insertPassword("password");
-        loginPage.clickButtonSignInSubmit();
-
-    }
-
-    @Test
-    public void testAddKindleToCart() {
-        HomePage homePage = new HomePage(driver);
         SearchResultsPage searchResultsPage = new SearchResultsPage(driver);
         ProductPage productPage = new ProductPage(driver);
         CartPage cartPage = new CartPage(driver);
 
+        homePage.clickQuickAccessButtonLogin();
+        loginPage.validTitleLogin();
+        loginPage.insertEmail("email");
+        loginPage.clickButtonContinue();
+        loginPage.validateInputEmailSuccessfully();
+        loginPage.insertPassword("senha");
+        loginPage.clickButtonSignInSubmit();
 
+        
         homePage.searchForItem("kindle");
         searchResultsPage.clickFirstItem();
         productPage.clickAddToCartButton();
