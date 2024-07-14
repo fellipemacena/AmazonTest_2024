@@ -29,7 +29,7 @@ public class LoginTest {
 
         homePage.clickQuickAccessButtonLogin();
 <<<<<<< HEAD
-        loginPage.insertWrongEmail("testfafn@gmail.com");
+        loginPage.insertWrongEmail("wrongEmail");
 =======
         loginPage.insertWrongEmail("email");
 >>>>>>> e9c50a720046f16ffba3c8028a060d406d3cdb54
@@ -44,7 +44,7 @@ public class LoginTest {
 
         homePage.clickQuickAccessButtonLogin();
 <<<<<<< HEAD
-        loginPage.insertEmail("testfafm@gmail.com");
+        loginPage.insertEmail("email");
         loginPage.clickButtonContinue();
         loginPage.insertWrongPassword("wrongpassword");
 =======
@@ -64,10 +64,10 @@ public class LoginTest {
         homePage.clickQuickAccessButtonLogin();
         loginPage.validTitleLogin();
 <<<<<<< HEAD
-        loginPage.insertEmail("testfafm@gmail.com");
+        loginPage.insertEmail("rightEmail");
         loginPage.clickButtonContinue();
         loginPage.validateInputEmailSuccessfully();
-        loginPage.insertPassword("qazzaqqweewq1234!");
+        loginPage.insertPassword("rightPassword!");
 =======
         loginPage.insertEmail("email");
         loginPage.clickButtonContinue();
